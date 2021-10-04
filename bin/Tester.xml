@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tester
+</name>
+</assembly>
+<members>
+<member name="T:Tester.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Tester.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Tester.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Tester.xHTML">
+ <summary>
+ HTML 分析類
+ </summary>
+</member>
+<member name="T:Tester.xHTML.xElementCollection">
+ <summary>
+ HTML 元素集合
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Tester.xHTML.xElementEnum">
+ <summary>
+ HTML 元素集合支援
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Tester.xHTML.xElement">
+ <summary>
+ HTML 單一元素
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Tester.xHTML.xElement.text">
+ <summary>
+ 只回傳 HTML 碼內的文字
+ </summary>
+</member>
+<member name="M:Tester.xHTML.xElement.#ctor">
+ <summary>
+ 創建一個新的 HTML 元素對像
+ </summary>
+</member>
+<member name="M:Tester.xHTML.xElement.#ctor(System.String)">
+ <param name="html">HTML 碼</param>
+</member>
+<member name="M:Tester.xHTML.xElement.#ctor(Tester.xHTML.xElement)">
+ <param name="xElem">複製元素</param>
+</member>
+<member name="M:Tester.xHTML.xElement.Clone">
+ <summary>
+ 建立一份複本元素
+ </summary>
+</member>
+<member name="M:Tester.xHTML.xElement.Attr(System.String)">
+ <summary>
+ 取得 HTML 元素內的屬性值
+ </summary>
+</member>
+<member name="M:Tester.xHTML.xElement.GetByAttr(System.String,System.String)">
+ <summary>
+ 從 HTML 碼內找出符合條件的所有子元素
+ </summary>
+ <param name="AttrName">屬性名稱</param>
+ <param name="AttrValue">屬性值</param>
+</member>
+<member name="M:Tester.xHTML.xElement.GetByAttr(System.String,System.String,System.String)">
+ <summary>
+ 從 HTML 碼內找出符合條件的所有子元素
+ </summary>
+</member>
+<member name="M:Tester.xHTML.xElement.GetByTag(System.String,System.Boolean)">
+ <summary>
+ 取得 HTML 元素內的指定標記的子元素
+ </summary>
+</member>
+<member name="M:Tester.xHTML.GetByAttr(System.String,System.String,System.String)">
+ <summary>
+ 從 HTML 碼內找出符合條件的所有元素
+ </summary>
+ <param name="html">HTML 碼</param>
+ <param name="AttrName">屬性名稱</param>
+ <param name="AttrValue">屬性值</param>
+</member>
+<member name="M:Tester.xHTML.GetByAttr(System.String,System.String,System.String,System.String)">
+ <summary>
+ 從 HTML 碼內找出符合條件的所有元素
+ </summary>
+ <param name="html">HTML 碼</param>
+ <param name="TagName">標記名稱</param>
+ <param name="AttrName">屬性名稱</param>
+ <param name="AttrValue">屬性值</param>
+</member>
+<member name="M:Tester.xHTML.GetByTag(System.String,System.String,System.Boolean)">
+ <summary>
+ 取得 HTML 元素內的指定標記的子元素
+ </summary>
+</member>
+<member name="M:Tester.xHTML.Attr(System.String,System.String)">
+ <summary>
+ 取得 HTML 元素內的指定標籤的子元素
+ </summary>
+</member>
+<member name="M:Tester.xHTML.SplitHTML(System.String)">
+ <summary>
+ 去除 HTML 碼
+ </summary>
+</member>
+<member name="M:Tester.xHTML.TrimHTML(System.String)">
+ <summary>
+ 去除 HTML 碼的空白
+ </summary>
+</member>
+<member name="M:Tester.xHTML.CleanHTML(System.String)">
+ <summary>
+ 去除 HTML 碼的 Javescrpit 及 CSS
+ </summary>
+</member>
+<member name="M:Tester.xHTML.FindHTML(System.String,System.String,System.String)">
+ <summary>
+ 使用 2 組字串找出 HTML 碼片段
+ </summary>
+</member>
+<member name="M:Tester.xHTML.PastHTML(System.String,System.String)">
+ <summary>
+ 跳過 HTML 碼片段
+ </summary>
+</member>
+</members>
+</doc>
